@@ -1,0 +1,91 @@
+
+
+
+form {
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius:40px;
+
+  color:#FF00FF;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  border-radius:10px;
+  border-bottom:groove #FF6633;
+  border-top:groove #FF9933;
+  border-left:groove #FF9933;
+  border-right:#FF6633 groove;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  width: 100%;
+  background-color:#CCFFFF;
+  color:#0066CC;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+
+margin-left:10px;
+  padding: 9px 19px 8px 29px;
+  color:#FFFFFF;
+  background-color:#FF9933;
+  font-size:24px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 10px;
+  width: 80%;
+  border:thin #006600;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 1px;
+  border: none;
+
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 400px;
+  }
+
+}
